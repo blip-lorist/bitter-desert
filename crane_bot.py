@@ -6,9 +6,13 @@ from os.path import join, dirname
 from dotenv import Dotenv
 
 # Twitter Config
-dotenv_path = join(dirname(__file__), '.env')
-dotenv = Dotenv(dotenv_path)
-os.environ.update(dotenv)
+
+try:
+    dotenv_path = join(dirname(__file__), '.env')
+    dotenv = Dotenv(dotenv_path)
+    os.environ.update(dotenv)
+except:
+    pass
 
 CONSUMER_KEY = os.environ.get("CONSUMER_KEY") 
 CONSUMER_SECRET = os.environ.get("CONSUMER_SECRET")
