@@ -1,0 +1,12 @@
+dotenv==0.0.5
+nltk==3.1
+numpy==1.10.4
+oauthlib==1.1.2
+Pattern==2.6
+profanity==1.1
+requests==2.10.0
+requests-oauthlib==0.6.1
+six==1.10.0
+textstat==0.2
+tweepy==3.5.0
+wheel==0.24.0
