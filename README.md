@@ -16,6 +16,9 @@ Inspired by [@JustToSay](https://twitter.com/justtosaybot)
 >Because it is sour  
 >And because it is my brow"  
 
+## Twitter Bot
+[@bitter_desert](https://twitter.com/bitter_desert)
+
 ## Poem Template
 In the NOUN (BIOME)  
 I saw a NOUN, ADJECTIVE, bestial,   
