@@ -1,5 +1,6 @@
 # 'In the Desert' Mad Libs
 Experiments with NLTK, syllable analysis, and a Stephen Crane poem
+Inspired by [@JustToSay](https://twitter.com/justtosaybot)
 
 ## Example Result
 `python crane_bot.py`
