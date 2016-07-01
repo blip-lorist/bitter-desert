@@ -3,6 +3,9 @@ from profanity import profanity
 
 def filtered_words(wordlist):
     '''
+    Input an unfiltered list of words as the first arg
+    `python language_filter.py unfiltered_words.txt`
+
     Return a word if it is not considered offensive. 
     Arguments: 
         word : string 
