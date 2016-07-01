@@ -1,7 +1,10 @@
 from nltk.corpus import wordnet as wn
 from textstat.textstat import textstat
 from pattern.en import conjugate, PRESENT, PARTICIPLE 
-from language_filter import filtered_wordlist
+
+"""
+Run with `python collect_squattings.py > unfiltered_squattings.txt`
+"""
 
 # Collect present participle (ending in 'ing') of single-syllable verbs
 verbs = list(wn.all_synsets('v'))

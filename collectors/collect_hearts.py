@@ -1,6 +1,10 @@
 from nltk.corpus import wordnet as wn
 from textstat.textstat import textstat
 
+"""
+Run with `python collect_hearts.py > unfiltered_hearts.txt`
+"""
+
 # Find a specific synset of "body" 
 body = wn._synset_from_pos_and_offset('n',5216365) 
 

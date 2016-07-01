@@ -1,6 +1,9 @@
 from nltk.corpus import wordnet as wn
 from textstat.textstat import textstat
-from language_filter import filtered_wordlist
+
+"""
+Run with `python collect_naked.py > unfiltered_naked.txt`
+"""
 
 adjectives = list(wn.all_synsets('a')) + list(wn.all_synsets('s'))
 nakeds = []
@@ -16,8 +19,6 @@ for item in adjectives:
 # Uniques only
 nakeds = set(nakeds)
 
-# Filter out offensive language
-filtered_nakeds = filtered_wordlist(nakeds)
 
-for naked in filtered_nakeds:
+for naked in nakeds:
     print naked.encode('utf8')
